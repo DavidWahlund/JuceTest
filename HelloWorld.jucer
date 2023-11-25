@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="lo9wz8" name="HelloWorld" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
+  <MAINGROUP id="uOwD0I" name="HelloWorld">
+    <GROUP id="{02146E77-215C-F8F9-3ED8-39723C044AB4}" name="Source">
+      <FILE id="N0ijX7" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="l22ux9" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="A4c7MK" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <VS2022 targetFolder="Builds/VisualStudio2022">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="HelloWorld"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="HelloWorld"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../modules"/>
+        <MODULEPATH id="juce_data_structures" path="../modules"/>
+        <MODULEPATH id="juce_events" path="../modules"/>
+        <MODULEPATH id="juce_graphics" path="../modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../modules"/>
+      </MODULEPATHS>
+    </VS2022>
+  </EXPORTFORMATS>
+</JUCERPROJECT>
